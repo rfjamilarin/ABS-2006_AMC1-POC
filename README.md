@@ -1,6 +1,8 @@
 # ABS-2006_AMC1-POC
 
-Welcome to the Loan Level Data Analysis Tool. This tool is designed to provide users with insights into mortgage loan data in a streamlined and efficient manner. However, it's important to note some limitations and the overall design of the tool before proceeding.
+Welcome to the ABS-2006_AMC1-POC. This proof of concept (POC) is designed to allow users to retrieve ABS transactions and total available principal funds based on user input.
+
+This tool assumes that CSV files are downloaded and imported in folder called 'enhancedLoanLevelData', while certificate statements are located in folder 'certificateStatements'. CSV files and PDF files can be downloaded from https://bit.ly/ABS-2006_AMC1-POC. Folders must be with the same directory with the py files.
 
 Limitations:
 1.	In the interest of time and complexity, I decided to read only the enhanced loan level data CSV files.
